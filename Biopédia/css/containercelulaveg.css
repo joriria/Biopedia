@@ -1,0 +1,51 @@
+@import url("../css/base.css");
+@import url(../css/celulas.css);
+
+.containercelulas{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 14vh 200vh 13vh;
+    grid-template-areas:  "header header" 
+                          "article article"
+                          "article article"
+                          "footer footer";
+    background-color: #FDF6E5;
+}
+
+@media (max-width:728px){
+
+    .containercelulas{
+        grid-template-rows: 14vh 290vh 15vh;
+    }
+
+    .botaovoltar{
+        height: 5vh;
+    }
+
+    .titulocelula{
+        font-size: 4.5vh;
+        margin-left: 10vw;
+        margin-bottom: 2vh;
+    }
+
+    .imgcelula{
+        width: 28vh;
+        height: 32vh;
+        margin-left: 10vh;
+    }
+
+    .textocelula{
+        font-size: 2.3vh;
+        margin-left: 41vh;
+       
+    }
+    .listaimg{
+        margin-top: 4vh;
+        margin-bottom: 3.5vh;
+        margin-left: 13vw;
+        font-size: 2.3vh;
+        line-height: 3.2vh;
+        text-align: justify;
+        margin-right: 10vw;
+    }
+}

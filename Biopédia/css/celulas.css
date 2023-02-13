@@ -1,0 +1,102 @@
+@import url("../css/base.css");
+
+
+.articlecelulas{
+    font-family: inter;
+    flex-wrap: wrap;
+    
+}
+.metade1{
+    width: 100%;
+    height: 85%;
+}
+.botaovoltar{
+    height: 7vh;
+    margin-left: 3vw;
+    margin-top: 6vh;
+    float: left;
+
+}
+.titulocelula{
+    font-size: 6vh;
+    color: #386641;
+    margin-top: 6vh;
+    margin-left: 9.5vw;
+    margin-bottom: 3vh;
+    
+}
+.imgcelula{
+    height: 45vh;
+    margin-left: 20vh;
+    float: left;
+    
+}
+.textocelula{
+    font-size: 2.5vh;
+    margin-left: 75vh;
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+    line-height: 3.2vh;
+    text-align: justify;
+   
+}
+li{
+    margin-bottom: 1vh;
+}
+.listaimg{
+    margin-top: 2vh;
+    margin-bottom: 3.5vh;
+    margin-left: 38vw;
+    font-size: 2.5vh;
+    line-height: 3.2vh;
+    text-align: justify;
+    margin-right: 10vw;
+}
+.outrotitulo{
+    font-size: 3vh;
+    color: #386641;
+    margin-left: 10vw;
+    margin-top: 7.5vh;
+    margin-bottom: 1.5vh;
+
+}
+.listaimg1{
+    font-size: 2.5vh;
+    margin-left: 12vw;
+    margin-right: 10vw;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+    line-height: 3.2vh;
+    text-align: justify;
+
+}
+
+.outrotextocelula{
+    margin-left: 10vw;
+    font-size: 2.5vh;
+    margin-bottom: 6vh;
+    line-height: 3.2vh;
+    text-align: justify;
+    text-align: justify;
+}
+
+.botoescelulas{
+    width: 35.5%;
+    height: 8vh;
+    background-color: #386641;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw ;
+    border-radius: 2vh;
+    float: left;
+    
+}
+.textobotaocelula{
+    color: white;
+    font-size: 2.8vh;
+
+}
+
+
+

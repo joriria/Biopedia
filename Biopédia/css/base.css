@@ -1,0 +1,97 @@
+@import url("../css/fonts.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    grid-area: header;
+    background-color: #89C957; 
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-left: 6vw;
+    width: 10vh;
+}
+
+.divlogin{
+    width: 74.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 8vw;
+}
+#logotxt{
+    font-size: 5vh;
+    color: white;
+    margin-left: -1vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    width: 15vw;
+    height: 7vh;
+    background-color: #F5814B;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+}
+#logintxt{
+    font-size: 3vh;
+    color: white;
+    
+}
+article{
+    grid-area: article;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    grid-area: footer;
+    background-color: #5D983A;
+    display: flex;
+}
+footer img{
+    margin-left: 6.2vw;
+    width: 10vh;
+    
+}
+.rodapetxt{
+    font-family: interl;
+    font-size: 2vh;
+    line-height: 3.2vh;
+}
+footer h4{
+    color: #FFFFFF;
+}
+footer h5{
+    color: #EEF2A8;
+}
+footer h6{
+    color: #A7C957;
+}
+footer div{
+    font-family: interl;
+    display: flex;
+    flex-wrap: wrap;
+}
+#divfooter{
+    margin-left: 2vh;
+    margin-top: 2vh;
+    flex-flow: column;
+}
+
+@media (max-width:768px){
+
+    
+}
+

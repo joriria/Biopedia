@@ -1,0 +1,144 @@
+@import url(../css/base.css);
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 14vh 35vh 64vh 13vh;
+    grid-template-areas:  "header header header" 
+                          "banner banner banner"
+                          "article article aside"
+                          "footer footer footer";
+    background-color: #FDF6E5;
+}
+aside{
+    grid-area: aside;
+    display: flex;
+}
+.banner{
+    grid-area: banner;
+    display: flex;
+    align-items: center;
+}
+#bannerimg{
+    width: 85%;
+    height: 80%;
+    margin-left: 7vw;
+    background-color: #386641;
+}
+.bannerimg{
+    height: 100%;
+    width: 100%;
+}
+.articleindex{
+    flex-wrap: wrap;
+}
+.celula{
+    width: 84.5%;
+    height: 40%;
+    margin-left: 7vw;
+}
+.tcelulatxt{
+    margin-top: 1vh;
+    font-size: 4vh;
+    color: #386641;
+    font-family: Inter;
+}
+.celulatxt{
+    margin-top: 1vh;
+    font-size: 2.3vh;
+    text-align: justify;
+    font-family: Inter;
+    line-height: 3.2vh;
+}
+.botaocelula{
+    width: 38%;
+    height: 35%;
+    background-color: #FDF0CF;
+    margin-left: 7vw;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.celulaimg{
+    height: 20vh;
+}
+.botaocelulaatxt{
+    width: 40%;
+    height: 9%;
+    display: flex;
+    justify-content: center; 
+    margin-left: 6vw;
+}
+.botaocelulatxt{
+    font-size: 2.7vh;
+    font-family: inter;
+    color: #386641;
+
+    
+}
+.topicos{
+    width: 61%;
+    height: 80.5%;
+    background-color: #FDF0CF;
+    display: flex;
+    flex-flow: column;
+}
+.titulolink{
+    font-family: inter;
+    color: #386641;
+    font-size: 2.5vh;
+    margin-left: 2vh;
+    margin-top: 1.5vh;
+
+}
+.links{
+    color: #386641;
+    font-family: inter;
+    font-size: 1.7vh;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+
+}
+
+@media (max-width:728px){
+
+    .container{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 14vh 95vh 15vh;
+        grid-template-areas:  "header header " 
+                              "article article"
+                              "footer footer";
+
+    }
+
+    aside{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .celulaimg{
+        height: 10vh;
+    }
+
+    .botaocelula{
+        height: 15%;
+    }
+
+    .botaocelulaatxt{
+        height: 9%;
+    }
+
+    .tcelulatxt{
+        margin-top: 8vh;
+        font-size: 4vh;
+        color: #386641;
+        font-family: Inter;
+    }
+
+    
+}

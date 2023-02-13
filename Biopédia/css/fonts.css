@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Inter;
+    src: url(../font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Interl;
+    src: url(../font/Inter-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Interm;
+    src: url(../font/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gelasio;
+    src: url(../font/Gelasio-Regular.ttf);
+}
